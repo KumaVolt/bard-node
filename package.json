@@ -1,0 +1,25 @@
+{
+  "name": "bard-node",
+  "version": "1.0.0",
+  "description": "A general purpose discord bot",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsc && node dist/src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "moonlink.js": "^2.11.19",
+    "reflect-metadata": "^0.1.13",
+    "shoukaku": "github:Deivu/Shoukaku",
+    "typedi": "^0.10.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^20.5.7",
+    "@types/winston": "^2.4.4",
+    "eslint": "^8.50.0",
+    "typescript": "^5.2.2"
+  }
+}
